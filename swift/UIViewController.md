@@ -29,3 +29,7 @@ controller displays the selected item from that table.
   1. specify the view controller and its views in the *storyboard*; to load a view controller from a storyboard, call `instantiateViewController(withIdentifier:)`
   2. specify using a Nib file; a Nib file lets you specify the views of a single view controller, but doesn't let you define segues or relationships; create the vc programmatically and initialize using `init(nibName:bundle:)`
   3. specify the views using the `loadView()` method; 
+- a view controller's root view is always sized to fit its assigned space
+
+## Handling View-Related Notifications
+
