@@ -34,4 +34,5 @@ controller displays the selected item from that table.
 ## Handling View-Related Notifications
 - when the visibility of its views changes, a vc automatically calls its own methods so that subclasses can respond
 - `viewWillAppear(_:)` can be used to prepare your views to appear onscreen, and `viewWillDisappear(_:)` can be used to save changes or other state information
-- (https://docs-assets.developer.apple.com/published/f06f30fa63/UIViewController_Class_Reference_2x_ddcaa00c-87d8-4c85-961e-ccfb9fa4aac2.png)
+
+![](https://docs-assets.developer.apple.com/published/f06f30fa63/UIViewController_Class_Reference_2x_ddcaa00c-87d8-4c85-961e-ccfb9fa4aac2.png)
