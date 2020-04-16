@@ -11,11 +11,11 @@ git push -u origin master
 ```
 
 ## Links
+- Tutorial: [Swift Grid Layout using UIStackView](https://medium.com/@alexxjk_mar/swift-grid-layout-based-on-uistackview-cc927fc43d8b) (Medium)
+## Tools
 - [Whimsical](https://whimsical.com/)
 - [Miro](https://miro.com/)
 - [Figma](https://www.figma.com/design/)
-
-## Tools
 
 ## Repos
 
