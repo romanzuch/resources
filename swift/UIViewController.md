@@ -42,3 +42,5 @@ controller displays the selected item from that table.
 - if you start a *will* callback method, you need to close it with the corresponding *did* and the opposite *will* callback method
 
 ## Handling View Rotations
+- rotations are treated as a change in the size of the vc's view
+- are reported using the ```viewWillTransition(to:with:)``` method
