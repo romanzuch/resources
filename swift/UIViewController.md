@@ -35,4 +35,10 @@ controller displays the selected item from that table.
 - when the visibility of its views changes, a vc automatically calls its own methods so that subclasses can respond
 - `viewWillAppear(_:)` can be used to prepare your views to appear onscreen, and `viewWillDisappear(_:)` can be used to save changes or other state information
 
-<img src="https://docs-assets.developer.apple.com/published/f06f30fa63/UIViewController_Class_Reference_2x_ddcaa00c-87d8-4c85-961e-ccfb9fa4aac2.png" height="380" width="360">
+<img src="https://docs-assets.developer.apple.com/published/f06f30fa63/UIViewController_Class_Reference_2x_ddcaa00c-87d8-4c85-961e-ccfb9fa4aac2.png" height="400" width="420">
+
+- the above image shows the possible visible states for a view controller's views
+- not all *will* callback methods are paired with only a *did* callback method 
+- if you start a *will* callback method, you need to close it with the corresponding *did* and the opposite *will* callback method
+
+## Handling View Rotations
