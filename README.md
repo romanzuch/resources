@@ -13,6 +13,7 @@ git push -u origin master
 ## Links
 - Tutorial: [Swift Grid Layout using UIStackView](https://medium.com/@alexxjk_mar/swift-grid-layout-based-on-uistackview-cc927fc43d8b) (Medium)
 - Guide: [ViewController Programming Guide iOS](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457) (Apple)
+- Guide: [Using Git with Terminal Mac](https://github.com/codepath/ios_guides/wiki/Using-Git-with-Terminal) (Github)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
