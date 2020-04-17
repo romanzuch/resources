@@ -76,3 +76,6 @@ controller displays the selected item from that table.
 - a vc preserves the state of any views in its view hierarchy that also have restoration identifiers
 - if a custom view controller is implemented, any child view controller must be encoded by yourself
 - each child must have a unique restoration identifier
+
+## Further Topics
+- [func viewDidLoad()](swift/UIViewController/ViewDidLoad.md)
