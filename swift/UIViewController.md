@@ -67,11 +67,11 @@ controller displays the selected item from that table.
 	- `willMove(toParent:)`
 	- `didMove(toParent:)`
 
-# Memory Management
+## Memory Management
 - vcs provide built-in support for reducing their memory footprint at critical times
 - UIViewController class provides automatic handling of low-memory conditions through `didReceiveMemeoryWarning()` method
 
-# State Preservation and Restoration
+## State Preservation and Restoration
 - when a value is assigned to the `restorationIdentifier` property, the system may ask the vc to encode itself when the app transitions in the background
 - a vc preserves the state of any views in its view hierarchy that also have restoration identifiers
 - if a custom view controller is implemented, any child view controller must be encoded by yourself
