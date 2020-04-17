@@ -53,3 +53,7 @@ controller displays the selected item from that table.
 	- `willAnimateRotation(to:duration:)`
 	- `didRotate(from:)`
 	- `viewWillLayoutSubviews()` is called after the view is resized and positioned by its parent
+	- if a vc is not visible when an orientation change occurs, the rotation methods are never called
+	- `viewWillLayoutSubviews()` method is called when the view becomes visible
+
+## Implementing a Container View Controller
