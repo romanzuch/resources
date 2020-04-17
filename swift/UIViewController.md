@@ -57,3 +57,22 @@ controller displays the selected item from that table.
 	- `viewWillLayoutSubviews()` method is called when the view becomes visible
 
 ## Implementing a Container View Controller
+- a custom UIViewController subclass can also act as a *container* vc
+- a container vc manages the presentation of content of other vc it owns (child vcs)
+- your container vc should declare a *public interface* to associate its children
+- a container vc must associate a child vc with itself before adding the child's root view to the view hierarchy
+- essential methods:
+	- `addChild(_:)`
+	- `removeFromParent()`
+	- `willMove(toParent:)`
+	- `didMove(toParent:)`
+
+# Memory Management
+- vcs provide built-in support for reducing their memory footprint at critical times
+- UIViewController class provides automatic handling of low-memory conditions through `didReceiveMemeoryWarning()` method
+
+# State Preservation and Restoration
+- when a value is assigned to the `restorationIdentifier` property, the system may ask the vc to encode itself when the app transitions in the background
+- a vc preserves the state of any views in its view hierarchy that also have restoration identifiers
+- if a custom view controller is implemented, any child view controller must be encoded by yourself
+- each child must have a unique restoration identifier
