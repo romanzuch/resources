@@ -1,4 +1,4 @@
 # Swift
 
 ## Topics
-- [UIViewController](swift/UIViewController.md)
+- [UIViewController](UIViewController.md)
