@@ -44,3 +44,10 @@ controller displays the selected item from that table.
 ## Handling View Rotations
 - rotations are treated as a change in the size of the vc's view
 - are reported using the ```viewWillTransition(to:with:)``` method
+- ```interface orientation changes -> UIKit calls viewWillTransition(to:with:) on window's root vc -> root vc notifies its child vcs -> propagating the view through vc hierarchy```
+- use ```prefferedInterfaceOrientationForPresentation``` for a vc that is intended to be full screen in a specific orientation
+- methods that are called during a rotation:
+	- `willRotate(to:duration:)`
+	- `willAnimateRotation(to:duration:)`
+	- `didRotate(from:)`
+	- `viewWillLayoutSubviews()` is called after the view is resized and positioned by its parent
