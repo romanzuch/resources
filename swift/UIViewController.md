@@ -1,5 +1,7 @@
 # UIViewController
 
+> An object that manages a view hierarchy for your UIKit app.
+
 **Declaration**
 
 ```swift
