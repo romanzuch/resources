@@ -80,4 +80,4 @@ controller displays the selected item from that table.
 - each child must have a unique restoration identifier
 
 ## Further Topics
-- [func viewDidLoad()](swift/UIViewController/ViewDidLoad.md)
+- [func viewDidLoad()](.../UIViewController/ViewDidLoad.md)
