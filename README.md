@@ -20,6 +20,8 @@ git push -u origin master
 - [Whimsical](https://whimsical.com/)
 - [Miro](https://miro.com/)
 - [Figma](https://www.figma.com/design/)
+- [Sublime](https://www.sublimetext.com/)
+- [Anki](https://apps.ankiweb.net/)
 
 ## Repos
 
