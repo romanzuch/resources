@@ -28,3 +28,13 @@
 ## Introduction to natural language processing in Swift
 
 <img src="https://rickwierenga.com/assets/images/naturallanguage.png">
+
+- the intelligence part of natural language processing involves identifying people, objects and places, classifying nouns, verbs etc.
+- these categories are called tag schemes 
+- NLP systems based on machine learning algorithms have many advantages over hand-produced rules:
+	- the learning procedures used during ml automatically focus on the most common cases
+	- automatic learning procedures can make use of statistical inference algorithms to produce robust models
+	- can be made more accurate by supplying more input data
+
+[Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing)
+
