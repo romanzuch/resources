@@ -14,13 +14,13 @@
 	- [Tokenizing Natural Language Text](https://developer.apple.com/documentation/naturallanguage/tokenizing_natural_language_text)
 	- [`class NLTokenizer`](https://developer.apple.com/documentation/naturallanguage/nltokenizer)
 - Langugage Identification
-	- `class NLLanguageRecognizer`
-	- `struct NLLanguage`
+	- [`class NLLanguageRecognizer`](https://developer.apple.com/documentation/naturallanguage/nllanguagerecognizer)
+	- [`struct NLLanguage`](https://developer.apple.com/documentation/naturallanguage/nllanguage)
 - Linguistic Tags
-	- Identifying Parts of Speech
-	- Identifying People, Places, and Organizations
-	- `class NLTagger`
+	- [Identifying Parts of Speech](https://developer.apple.com/documentation/naturallanguage/identifying_parts_of_speech)
+	- [Identifying People, Places, and Organizations](https://developer.apple.com/documentation/naturallanguage/identifying_people_places_and_organizations)
+	- [`class NLTagger`](https://developer.apple.com/documentation/naturallanguage/nltagger)
 - Text Embedding
-	- `class NLEmbedding`
+	- [`class NLEmbedding`](https://developer.apple.com/documentation/naturallanguage/nlembedding)
 - Natural Language Models
-	- `class NLModel`
+	- [`class NLModel`](https://developer.apple.com/documentation/naturallanguage/nlmodel)
