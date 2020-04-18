@@ -11,8 +11,8 @@
 
 ## Topics
 - Tokenization
-	- Tokenizing Natural Language Text
-	- `class NLTokenizer`
+	- [Tokenizing Natural Language Text](https://developer.apple.com/documentation/naturallanguage/tokenizing_natural_language_text)
+	- [`class NLTokenizer`](https://developer.apple.com/documentation/naturallanguage/nltokenizer)
 - Langugage Identification
 	- `class NLLanguageRecognizer`
 	- `struct NLLanguage`
