@@ -24,3 +24,7 @@
 	- [`class NLEmbedding`](https://developer.apple.com/documentation/naturallanguage/nlembedding)
 - Natural Language Models
 	- [`class NLModel`](https://developer.apple.com/documentation/naturallanguage/nlmodel)
+
+## Introduction to natural language processing in Swift
+
+<img src="https://rickwierenga.com/assets/images/naturallanguage.png">
