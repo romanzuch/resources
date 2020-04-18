@@ -8,3 +8,19 @@
 - [Introduction to natural language processing in Swift](https://rickwierenga.com/blog/apple/NaturalLanguage.html)
 - [Introduction to Natural Language Processing in Swift](https://www.appcoda.com/natural-language-processing-swift/)
 - [Natural Language Processing on iOS with Turi Create](https://www.raywenderlich.com/5213-natural-language-processing-on-ios-with-turi-create)
+
+## Topics
+- Tokenization
+	- Tokenizing Natural Language Text
+	- `class NLTokenizer`
+- Langugage Identification
+	- `class NLLanguageRecognizer`
+	- `struct NLLanguage`
+- Linguistic Tags
+	- Identifying Parts of Speech
+	- Identifying People, Places, and Organizations
+	- `class NLTagger`
+- Text Embedding
+	- `class NLEmbedding`
+- Natural Language Models
+	- `class NLModel`
