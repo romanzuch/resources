@@ -17,6 +17,9 @@
 - the data source object manages your app's data and is responsible for creating and configuring the table's cells
 - specify your table's data, see [Filling a Table with Data](https://developer.apple.com/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data)
 
+### Filling a Table with Data
+> Create and configure cells for your table dynamically using a data source object, or provide them statically from your storyboard.
+
 ## Saving and Restoring the Table's Current State
  
 
