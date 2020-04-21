@@ -87,7 +87,11 @@ override func tableView(_ tableView: UITableView,
 - do not use `tableView(_:cellForRowAt:)` method to load your table's data or perform lengthy operations
 
 **Prefetch Data to Improve Performance**
+- scrolling performance for table views is critical
+- if fetching the data for your table involves an expensive operation, such as fetching it from a database, use a prefetching data source object >> an object, that adopts the `UITableViewDataSourcePrefetching` protocol >> begin loading the data asynchronously before it scrolls into view
 
+**Specify Data Statically in the Storyboard**
+- 
 
 
 
