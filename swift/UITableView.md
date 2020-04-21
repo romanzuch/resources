@@ -29,6 +29,7 @@
 - the data source object provides this information using two methods:
 ```swift
 func numberOfSections(in: UITableView) -> Int // Optional
+
 func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int 
 ``` 
 
