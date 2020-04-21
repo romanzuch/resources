@@ -8,6 +8,6 @@
 - custom cells that display any content can be configured
 - header and footer views can provide additional information for groups of cells
 
-<img src="https://docs-assets.developer.apple.com/published/722508d93c/1eb44f8d-1907-4949-9208-f2fb7f3ffd1b.png" height = 1000, width = 350>
+<img src="https://docs-assets.developer.apple.com/published/722508d93c/1eb44f8d-1907-4949-9208-f2fb7f3ffd1b.png" height = 500, width = 350>
 
 ## Adding a Table View to Your Interface
