@@ -20,6 +20,20 @@
 ### Filling a Table with Data
 > Create and configure cells for your table dynamically using a data source object, or provide them statically from your storyboard.
 
+**Overview**
+- use a data source object to provide data for the table view
+- a data source object adopts the `UITableViewDataSource` protocol
+
+**Provide the Numbers of Rows and Sections**
+- before appearing on screen, a table view asks you to specify the total numbers of rows and sections
+- the data source object provides this information using two methods:
+```swift
+func numberOfSections(in: UITableView) -> Int // Optional
+func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int 
+``` 
+
+
+
 ## Saving and Restoring the Table's Current State
  
 
