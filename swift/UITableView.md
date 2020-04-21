@@ -49,8 +49,7 @@ override func tableView(_ tableView: UITableView,
 }
 ```
 
-
-```
+***Define the Appearance of Rows***
 
 
 
