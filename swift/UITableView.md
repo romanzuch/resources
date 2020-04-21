@@ -12,5 +12,11 @@
 
 ## Adding a Table View to Your Interface
 - to add a table view to your interface, drag a Table View Controller (UITableViewController) object to your storyboard
-- 
+- XCode creates a new scene that includes both the view controller and a table view
+- table views are data driven, normaly getting data from a data source object that you provide
+- the data source object manages your app's data and is responsible for creating and configuring the table's cells
+- specify your table's data, see [Filling a Table with Data](https://developer.apple.com/documentation/uikit/views_and_controls/table_views/filling_a_table_with_data)
+
+## Saving and Restoring the Table's Current State
+ 
 
