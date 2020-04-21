@@ -51,15 +51,43 @@ override func tableView(_ tableView: UITableView,
 
 **Define the Appearance of Rows**
 - you define the appearance of your table's rows in your storyboard file using cells
-- a cell is a UITableViewCell object that acts like a template for the rows of your table
+- a cell is a `UITableViewCell` object that acts like a template for the rows of your table
 - cells are views, and they contain any subviews that you need to display your content
 - labels, image views, and other views can be added to their content area 
 - to add more prototype cells to a table view, select the table view and update its Prototype Cells attribute
-- when creating a cell with a custom view, define a subclass of UITableViewCell to manage those views >> in your subclass, add outlets for the custom view that display your app's data, and connect those outlets to the actual views >> configure the cell at runtime
+- when creating a cell with a custom view, define a subclass of `UITableViewCell` to manage those views >> in your subclass, add outlets for the custom view that display your app's data, and connect those outlets to the actual views >> configure the cell at runtime
 
 
 **Create and Configure Cells for Each Row**
-- 
+- before a table appears onscreen, it asks its data source object to provide cells for the rows
+- your data source object's `tableView(_:cellForRowAt:)` method must respond quickly
+- implement this method with the following pattern:
+	- call the table view's `dequeueReusableCell(withIdentifier:for:) method 
+	- configure the cell's views with your app's custom data
+	- return the cell to the table view
+- for standard cell styles, `UITableViewCell` contains properties with the views you need to configure >> for custom cells, you add views to your cell at design time and outlets to access them
+- the example code shows a version of the data source method that configures a cell containing a single text label:
+
+```swift
+override func tableView(_ tableView: UITableView, 
+			cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+	// Ask for a cell of the appropriate type.
+	let cell = tableView.dequeueReusableCell(withIdentifier: "basicStyleCell", for: indexPath)
+
+	// Configure the cell's contents with the row and section number.
+	// The Basic cell style guarantees the label view is present in textLabel.
+	cell.textLabel!.text = "Row \(indexPath.row)"
+	return cell
+}
+```
+
+- table views do not ask you to create cells for each of the table's rows
+- creating cells lazily reduces the amount of memory the table uses
+- however, it also means your data source object must create cells quickly
+- do not use `tableView(_:cellForRowAt:)` method to load your table's data or perform lengthy operations
+
+**Prefetch Data to Improve Performance**
+
 
 
 
