@@ -102,6 +102,10 @@ override func tableView(_ tableView: UITableView,
 	6. configure each cell with the views and content you want 
 
 ## Saving and Restoring the Table's Current State
+- table views support UIKit app restoration 
+- to save and restore the table's data, assign a nonempty value to the table view's `restorationIdentifier` property
+- when its parent view controller is saved, the table view automatically saves the index paths for the currently selected and visible rows
+- if the table's data source objects adopts the `UIDataSourceModelAssociation` protocol, the table stores the unique IDs that you provide for those items instead of their index paths
 
  
 
