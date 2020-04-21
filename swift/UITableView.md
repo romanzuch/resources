@@ -91,12 +91,17 @@ override func tableView(_ tableView: UITableView,
 - if fetching the data for your table involves an expensive operation, such as fetching it from a database, use a prefetching data source object >> an object, that adopts the `UITableViewDataSourcePrefetching` protocol >> begin loading the data asynchronously before it scrolls into view
 
 **Specify Data Statically in the Storyboard**
-- 
-
-
-
-
+- use static tables to save time during prototyping or when your table's contents never change
+- with static tables, you specify all of your table's data up front in the storyboard file
+- how to configure static tables in the storyboard file:
+	1. adding a `UITableViewController` object to the storyboard
+	2. select the table view controller's table view
+	3. change the table view's Content attribute to `Static Cells`
+	4. specify the number of sections for your table using the table view's Sections attribute
+	5. set the row attribute of each section to the number of rows you want
+	6. configure each cell with the views and content you want 
 
 ## Saving and Restoring the Table's Current State
+
  
 
