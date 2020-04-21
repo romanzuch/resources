@@ -50,6 +50,18 @@ override func tableView(_ tableView: UITableView,
 ```
 
 **Define the Appearance of Rows**
+- you define the appearance of your table's rows in your storyboard file using cells
+- a cell is a UITableViewCell object that acts like a template for the rows of your table
+- cells are views, and they contain any subviews that you need to display your content
+- labels, image views, and other views can be added to their content area 
+- to add more prototype cells to a table view, select the table view and update its Prototype Cells attribute
+- when creating a cell with a custom view, define a subclass of UITableViewCell to manage those views >> in your subclass, add outlets for the custom view that display your app's data, and connect those outlets to the actual views >> configure the cell at runtime
+
+
+**Create and Configure Cells for Each Row**
+- 
+
+
 
 
 
