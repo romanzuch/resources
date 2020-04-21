@@ -32,6 +32,25 @@ func numberOfSections(in: UITableView) -> Int // Optional
 
 func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int 
 ``` 
+- return the row and section counts as quickly as possible 
+- doing so might require you to structure your data in a way that makes it easy to retrieve the row and section information
+- the example code below show an implementation of the data source methods that return the number of rows and sections in a *multisection table*
+
+```swift
+var hierarchicalData = [[String]]()
+
+override func numberOfSections(in tableView: UITableView) -> Int {
+	return hierarchicalData.count
+}
+
+override func tableView(_ tableView: UITableView,
+			numberOfRowsInSection section: Int) -> Int {
+	return hierarchicalData[section].count
+}
+```
+
+
+```
 
 
 
