@@ -20,6 +20,7 @@ git push -u origin master
 - Guide: [ViewController Programming Guide iOS](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457) (Apple)
 - Overview: [Machine Learning](https://developer.apple.com/machine-learning/) (Apple)
 - Tutorials: [iOS Entwickler-Blog: Artikel und Tutorials](https://www.ralfebert.de/ios/)
+- Repo: [Hacking with Swift CypherPoet](https://github.com/CypherPoet/book--hacking-with-swift)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
