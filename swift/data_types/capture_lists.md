@@ -107,3 +107,4 @@ func sing() -> () -> Void {
 `[ weak taylor]` is the capture list. We treat `taylor` as a weak value, therefor it is optional. This code won't print anything anymore, because the closure inside `sing()` doesn't keep a strong hold of `taylor`.
 
 ### Unowned Capturing
+Unowned capturing behaves more like implicitly unwrapped optionals. It allows values to become `nil` at any point in the future. However, you can work with them as **if** they are always going to be there. No need of unwrapping optionals.
