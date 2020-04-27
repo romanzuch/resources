@@ -21,6 +21,7 @@ git push -u origin master
 - Overview: [Machine Learning](https://developer.apple.com/machine-learning/) (Apple)
 - Tutorials: [iOS Entwickler-Blog: Artikel und Tutorials](https://www.ralfebert.de/ios/)
 - Repo: [Hacking with Swift CypherPoet](https://github.com/CypherPoet/book--hacking-with-swift)
+- Tutorial: [MapKit Tutorial: How to Add Maps to Your iOS App in Swift](https://www.iosapptemplates.com/blog/swift-programming/mapkit-tutorial)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
