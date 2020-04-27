@@ -23,6 +23,7 @@ git push -u origin master
 - Repo: [Hacking with Swift CypherPoet](https://github.com/CypherPoet/book--hacking-with-swift)
 - Tutorial: [MapKit Tutorial: How to Add Maps to Your iOS App in Swift](https://www.iosapptemplates.com/blog/swift-programming/mapkit-tutorial)
 - Tutorial: [JSON Parsing in Swift explained with code examples](https://www.avanderlee.com/swift/json-parsing-decoding/)
+- Tutorial: [JSON Decoding in Swift with Codable: A Practical Guide](https://matteomanferdini.com/codable/)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
