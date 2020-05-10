@@ -20,6 +20,11 @@ git push -u origin master
 - Guide: [ViewController Programming Guide iOS](https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/index.html#//apple_ref/doc/uid/TP40007457) (Apple)
 - Overview: [Machine Learning](https://developer.apple.com/machine-learning/) (Apple)
 - Tutorials: [iOS Entwickler-Blog: Artikel und Tutorials](https://www.ralfebert.de/ios/)
+- Repo: [Hacking with Swift CypherPoet](https://github.com/CypherPoet/book--hacking-with-swift)
+- Tutorial: [MapKit Tutorial: How to Add Maps to Your iOS App in Swift](https://www.iosapptemplates.com/blog/swift-programming/mapkit-tutorial)
+- Tutorial: [JSON Parsing in Swift explained with code examples](https://www.avanderlee.com/swift/json-parsing-decoding/)
+- Tutorial: [JSON Decoding in Swift with Codable: A Practical Guide](https://matteomanferdini.com/codable/)
+- Tutorial: [Using Codable With Nested JSON Is Both Easy And Fun!](https://medium.com/@nictheawesome/using-codable-with-nested-json-is-both-easy-and-fun-19375246c9ff)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
