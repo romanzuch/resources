@@ -13,5 +13,3 @@
     - [Closures](data_types/closures.md)
     - [Constructors](data_types/constructor.md)
     - [Optionals](data_types/optionals.md)
-- [Closures](data_types/closures.md)
-- [Optionals](data_types/optionals.md)
