@@ -25,6 +25,7 @@ git push -u origin master
 - Tutorial: [JSON Parsing in Swift explained with code examples](https://www.avanderlee.com/swift/json-parsing-decoding/)
 - Tutorial: [JSON Decoding in Swift with Codable: A Practical Guide](https://matteomanferdini.com/codable/)
 - Tutorial: [Using Codable With Nested JSON Is Both Easy And Fun!](https://medium.com/@nictheawesome/using-codable-with-nested-json-is-both-easy-and-fun-19375246c9ff)
+- Tutorial: [Parsing JSON Just Became Super Easy in Swift 4 with Decodable](https://www.youtube.com/watch?v=YY3bTxgxWss) (YouTube)
 
 ## Tools
 - [Whimsical](https://whimsical.com/)
