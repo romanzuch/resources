@@ -30,13 +30,13 @@ which comes down to the same thing).
   - `?` causes RE to match 0 or 1 repitions of the preceding RE &rarr; greedy
   - `*?`, `+?`, `??` adding `?` after a greedy qualifier makes it perform a non-greedy match
   - `{m}` specifies the amount of copies `m` of the previous RE should be matched; fewer matches cause the RE not to match at all
-  - `{m,n}` causes the resulting RE to match from m to n repetitions of the preceding RE
-  - `{m,n}?`
-  - `\`
-  - `[]`
-  - `|`
-  - `(...)`
-  - `(?...)`
+  - `{m,n}` causes the resulting RE to match from m to n repetitions of the preceding RE &rarr; greedy
+  - `{m,n}?` causes the resulting RE to match from m to n repetitions of the preceding RE &rarr; non-greedy
+  - `\` escapes special characters; or signales a special sequence; when not using a raw string, python will always use it as escaping character
+  - `[]` used to indicate a set of characters &rarr; `[abc]` will match `a`, `b` OR `c`; ranges of characters &rarr; `[a-c]` will do the same as the example before; `[a-c][0-2]` will match from `a0` to `c2`; special characters will lose their special meaning inside sets; for more info on sets refer [here](https://docs.python.org/3/library/re.html)
+  - `|` matches either A OR B when used like `A|B`
+  - `(...)` matches whatever expression is inside the parantheses, and indicates the end and the start of the group
+  - `(?...)` is an extension notation
   - `(?aiLmsux)`
   - `(?:...)`
   - `(?aiLmsux-imsx:...)`
@@ -60,9 +60,11 @@ which comes down to the same thing).
   - `\W`
   - `\Z`
 
-### Repetition classifiers
+### Repetition Classifiers
 
 - `*`, `*`, `?`, `{m,n}` etc are classifiers and CANNOT be nested directly
 - e.g. `(?:a{6})*` watches for any multiple of six `a` characters
+
+### Special Sequences
 
 ## Module Contents
