@@ -29,8 +29,8 @@ which comes down to the same thing).
   - `+` causes RE to match 1 or more repetitions of the preceding RE &rarr; greedy
   - `?` causes RE to match 0 or 1 repitions of the preceding RE &rarr; greedy
   - `*?`, `+?`, `??` adding `?` after a greedy qualifier makes it perform a non-greedy match
-  - `{m}`
-  - `{m,n}`
+  - `{m}` specifies the amount of copies `m` of the previous RE should be matched; fewer matches cause the RE not to match at all
+  - `{m,n}` causes the resulting RE to match from m to n repetitions of the preceding RE
   - `{m,n}?`
   - `\`
   - `[]`
