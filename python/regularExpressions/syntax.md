@@ -25,9 +25,9 @@ which comes down to the same thing).
   - `.` matches any character except a newline; with DOTALL flag it matches any character uncluding newline
   - `^` matches the start of a string; with MULTILINE matches after each newline
   - `$` matches the end of a string or just before the newline; 
-  - `*` causes RE to match 0 or more repetitions of the preceding RE; `ab*` matches `a`, `ab` or `a` with any amount of `b` -> greedy
-  - `+` causes RE to match 1 or more repetitions of the preceding RE -> greedy
-  - `?` causes RE to match 0 or 1 repitions of the preceding RE -> greedy
+  - `*` causes RE to match 0 or more repetitions of the preceding RE; `ab*` matches `a`, `ab` or `a` with any amount of `b` &rarr; greedy
+  - `+` causes RE to match 1 or more repetitions of the preceding RE &rarr; greedy
+  - `?` causes RE to match 0 or 1 repitions of the preceding RE &rarr; greedy
   - `*?`, `+?`, `??` adding `?` after a greedy qualifier makes it perform a non-greedy match
   - `{m}`
   - `{m,n}`
