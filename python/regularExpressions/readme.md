@@ -41,9 +41,9 @@ which comes down to the same thing).
   - `|` matches either A OR B when used like `A|B`
   - `(...)` matches whatever expression is inside the parantheses, and indicates the end and the start of the group
   - `(?...)` is an extension notation
-  - `(?aiLmsux)`
-  - `(?:...)`
-  - `(?aiLmsux-imsx:...)`
+  - `(?aiLmsux)` the group matches the empty string; the letters set the corresponding flags &rarr; WHAT?
+  - `(?:...)` a non-capturing version of regular parentheses; matches whatever regular expression is inside the `()`
+  - `(?aiLmsux-imsx:...)` the letters set or remove the corresponding flags &rarr; WHAT?
   - `(?P<name>...)`
   - `(?P=name)`
   - `(?#...)`
