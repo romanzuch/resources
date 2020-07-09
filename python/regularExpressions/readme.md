@@ -1,4 +1,4 @@
-# Regular Expressions
+# [Regular Expressions](https://docs.python.org/3/library/re.html)
 ## Links
 - [Re in Python Documentation](https://docs.python.org/3/library/re.html)
 
