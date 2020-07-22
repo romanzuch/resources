@@ -1,7 +1,5 @@
 # Python Classes
 
-[Link](https://www.machinelearningplus.com/python/python-property/)
-
 ## What does @property do?
 - the `@property` is used to let a method to be accessed as an attribute instead of as a method 
 
