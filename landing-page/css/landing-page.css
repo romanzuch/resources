@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+.header {
+  grid: flex;
+  align-items: center;
+}
+
 .header h1 {
   font-size: 3rem;
   font-family: Roboto;
