@@ -9,6 +9,7 @@
   height: 5rem;
   background-color: grey;
   place-items: center;
+  margin-bottom: 3rem;
 }
 
 .header h1 {
@@ -22,6 +23,7 @@
   margin-left: 10%;
   margin-right: 10%;
   background-color: green;
+  margin-bottom: 3rem;
 }
 
 .content h1 {
