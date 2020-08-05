@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: Roboto;
 }
 
 .header {
@@ -8,7 +9,6 @@
   height: 5rem;
   background-color: grey;
   place-items: center;
-  font-family: Roboto;
 }
 
 .header h1 {
@@ -16,7 +16,6 @@
 }
 
 .content {
-  font-family: Roboto;
   display: grid;
   place-items: center;
   width: 80%;
@@ -30,7 +29,6 @@
 }
 
 .footer {
-  font-family: Roboto;
   display: grid;
   place-items: center;
   width: 80%;
