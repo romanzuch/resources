@@ -10,6 +10,9 @@
   background-color: grey;
   place-items: center;
   margin-bottom: 3rem;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
 }
 
 .header h1 {
